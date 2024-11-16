@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+
+#header {
+width: 100%;
+height: 100vh;
+background-color: rgba(0, 0,0,0.5);
+background-image: url('./photos/how-to-train-your-dragon-2-official-movie-wallpaper-1920x10801.jpg');
+background-size: cover;
+overflow: auto;
+
+
+}
+#header nav {
+display: flex;
+background-color: rgba(0,0,0,0.7);
+justify-content: space-between;
+
+}
+
+#header nav .logo img {
+    width: 140px;
+    height: 65px;
+    padding:10px ;
+
+}
+#header nav ul {
+    list-style-type: none;
+    display: flex;
+    align-content: center;
+margin-top: 10px;
+
+}
+#header nav ul li{
+ padding: 20px;
+
+}
+#header nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+  
+}
+#header .content{
+width : 100%;
+
+padding-top: 200px;
+text-align: center;
+}
+#header .content h1{
+font-size: 100px;
+margin-bottom: 10px;
+color: aliceblue;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+#header .content p {
+    font-size: 25px;
+margin-bottom: 10px;
+color: aliceblue;
+
+}
+#header.content button{
+
+width: 200px;
+height: 40px;
+border-radius: 30px 
+
+}
+
